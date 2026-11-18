@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <form id="productform">
+        <span>
+            Selling Price
+        </span>
+            <span>
+            <input type="number" name="sellingprice"  id="sellingprice">
+            </span>
+        <span>
+            product name
+            <input type="text" name="productname"  id="productname">
+        </span>
+
+        <span>
+            <button type="submit">Add product</button>
+        </span>
+    </form>
+
+    <h3>Product List</h3>
+    <ul id="productlist"></ul>
+
+    <h3>Total selling price <span id="totalprice">0</span></h3>
+    <script src="index.js"></script>
+</body>
+</html>
